@@ -49,7 +49,7 @@ document.getElementById('unhideBtn').addEventListener("click",noHide);
 function noHide(){
      let liElements = document.getElementById('liste').children;
 
-     for(let i=0;liElements.length;i++)
+     for(let i=0;i < liElements.length;i++)
      {
          let eh = liElements[i].getAttribute('hidden'); 
          if( eh == 'true')
