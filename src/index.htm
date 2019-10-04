@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Coding Template</title>
@@ -19,11 +20,25 @@
   </div>
   <div>
     <h2>Indkøbsliste USUND</h2>
-    
+
     <ul id="listeUsund">
     </ul>
   </div>
-  
+  <div>
+    <h2>Add Item:</h2>
+    <input id="myInput"><br>
+    <button id="myBtn">Add Item</button>
+
+    <label for="sundt">Sundt: </label>
+    <input type="radio" name="sundtchoice" id="sundt">
+
+    <label for="usundt">Usundt:</label>
+    <input checked=true type="radio" name="sundtchoice" id="usundt">
+
+
+  </div>
+
   <script src="bundle.js"></script>
 </body>
+
 </html>
